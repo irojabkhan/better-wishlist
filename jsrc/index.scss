@@ -296,6 +296,185 @@ p#add-all-to-cart-text__help {
 
 .wishlist-button-custom-style-wrap,
 .addtocart-button-custom-style-wrap {
-	background-color: #f8f8f8;
-	padding: 15px 15px 10px;
+	// background-color: #f8f8f8;
+	// padding: 15px 15px 10px;
 }
+
+
+.bw-settings-content .components-color-picker-wrap .components-color-picker-swatch {
+	border: 3px solid #fff;
+}
+
+.wishlist-button-custom-style-wrap {
+	.components-color-picker-wrap {
+		width: 100%;
+		background: #f8f8f8;
+		padding: 12px 15px;
+		border-bottom: 1px solid #e6e6e6;
+		.components-color-picker-swatch {
+			width: 18px;
+		}
+	}
+	.components-base-control__field  {
+		margin-bottom: 0;
+		align-items: center;
+	}
+	label + .components-base-control {
+		width: 100%;
+		background: #f8f8f8;
+		padding: 12px 15px;
+		border-bottom: 1px solid #e6e6e6;
+		.components-base-control__field {
+			width: 100px;
+		}
+		&.components-range-control {
+			max-width: 100%;
+			.components-base-control__field {
+				width: 200px;
+			}
+		}
+	}
+}
+.addtocart-button-custom-style-wrap {
+	.components-base-control__field .components-color-picker-wrap {
+		width: 100%;
+		background: #f8f8f8;
+		padding: 12px 15px;
+		border-bottom: 1px solid #e6e6e6;
+		.components-color-picker-swatch {
+			width: 18px;
+		}
+	}
+	.components-base-control__field  {
+		margin-bottom: 0;
+		align-items: center;
+	}
+	label + .components-base-control {
+		width: 100%;
+		background: #f8f8f8;
+		padding: 12px 15px;
+		border-bottom: 1px solid #e6e6e6;
+		.components-base-control__field {
+			width: 100px;
+		}
+		&.components-range-control {
+			max-width: 100%;
+			.components-base-control__field {
+				width: 200px;
+				.components-range-control__track {
+					color: #5d21f4;
+				}
+			}
+		}
+	}
+}
+
+#tab-panel-0-style-view {
+	.components-select-control__input {
+		padding-top: 11px;
+		padding-bottom: 11px;
+		border-radius: 3px;
+		border: 1px solid #d7d7d7;
+		outline: none;
+		background: #fbfbfb;
+		&:focus {
+			background: #f8f5ff;
+			border: 1px solid #5d21f4;
+		}
+	}
+	.components-select-control__input ~ .components-input-control__backdrop  {
+		border-color: transparent;
+	}
+}
+
+// .components-range-control__wrapper {
+// 	input[type=range] {
+// 		height: 24px;
+// 		-webkit-appearance: none;
+// 		margin: 10px 0;
+// 		width: 100%;
+// 	}
+// 		input[type=range]:focus {
+// 		outline: none;
+// 	}
+// 	input[type=range]::-webkit-slider-runnable-track {
+// 		width: 100%;
+// 		height: 10px;
+// 		cursor: pointer;
+// 		animate: 0.2s;
+// 		box-shadow: 0px 0px 0px #000000;
+// 		background: #5B4E96;
+// 		border-radius: 5px;
+// 		border: 2px solid #F5F7FD;
+// 	}
+// 	input[type=range]::-webkit-slider-thumb {
+// 		box-shadow: 0px 0px 0px #000000;
+// 		border: none !important;
+// 		height: 16px;
+// 		width: 16px;
+// 		border-radius: 8px;
+// 		background: #5d21f4 !important;
+// 		cursor: pointer;
+// 		-webkit-appearance: none;
+// 		margin-top: -5px;
+// 	}
+// 	input[type=range]:focus::-webkit-slider-runnable-track {
+// 		background: #5B4E96;
+// 	}
+// 	input[type=range]::-moz-range-track {
+// 		width: 100%;
+// 		height: 10px;
+// 		cursor: pointer;
+// 		animate: 0.2s;
+// 		box-shadow: 0px 0px 0px #000000;
+// 		background: #5B4E96;
+// 		border-radius: 5px;
+// 		border: 2px solid #F5F7FD;
+// 	}
+// 	input[type=range]::-moz-range-thumb {
+// 		box-shadow: 0px 0px 0px #000000;
+// 		// border: 2px solid #5B4E96;
+// 		height: 16px;
+// 		width: 16px;
+// 		border-radius: 8px;
+// 		background: #5d21f4;
+// 		cursor: pointer;
+// 	}
+// 	input[type=range]::-ms-track {
+// 		width: 100%;
+// 		height: 10px;
+// 		cursor: pointer;
+// 		animate: 0.2s;
+// 		background: transparent;
+// 		border-color: transparent;
+// 		color: transparent;
+// 	}
+// 	input[type=range]::-ms-fill-lower {
+// 		background: #5B4E96;
+// 		border: 2px solid #F5F7FD;
+// 		border-radius: 10px;
+// 		box-shadow: 0px 0px 0px #000000;
+// 	}
+// 	input[type=range]::-ms-fill-upper {
+// 		background: #5B4E96;
+// 		border: 2px solid #F5F7FD;
+// 		border-radius: 10px;
+// 		box-shadow: 0px 0px 0px #000000;
+// 	}
+// 	input[type=range]::-ms-thumb {
+// 		margin-top: 1px;
+// 		box-shadow: 0px 0px 0px #000000;
+// 		// border: 2px solid #5B4E96;
+// 		height: 16px;
+// 		width: 16px;
+// 		border-radius: 8px;
+// 		background: #5d21f4;
+// 		cursor: pointer;
+// 	}
+// 	input[type=range]:focus::-ms-fill-lower {
+// 		background: #5B4E96;
+// 	}
+// 	input[type=range]:focus::-ms-fill-upper {
+// 		background: #5B4E96;
+// 	}
+// }

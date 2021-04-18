@@ -180,8 +180,70 @@ p#add-all-to-cart-text__help {
   text-indent: -999999px;
   padding: 0; }
 
-.wishlist-button-custom-style-wrap,
-.addtocart-button-custom-style-wrap {
-  background-color: #f8f8f8;
-  padding: 15px 15px 10px; }
+.bw-settings-content .components-color-picker-wrap .components-color-picker-swatch {
+  border: 3px solid #fff; }
+
+.wishlist-button-custom-style-wrap .components-color-picker-wrap {
+  width: 100%;
+  background: #f8f8f8;
+  padding: 12px 15px;
+  border-bottom: 1px solid #e6e6e6; }
+  .wishlist-button-custom-style-wrap .components-color-picker-wrap .components-color-picker-swatch {
+    width: 18px; }
+
+.wishlist-button-custom-style-wrap .components-base-control__field {
+  margin-bottom: 0;
+  align-items: center; }
+
+.wishlist-button-custom-style-wrap label + .components-base-control {
+  width: 100%;
+  background: #f8f8f8;
+  padding: 12px 15px;
+  border-bottom: 1px solid #e6e6e6; }
+  .wishlist-button-custom-style-wrap label + .components-base-control .components-base-control__field {
+    width: 100px; }
+  .wishlist-button-custom-style-wrap label + .components-base-control.components-range-control {
+    max-width: 100%; }
+    .wishlist-button-custom-style-wrap label + .components-base-control.components-range-control .components-base-control__field {
+      width: 200px; }
+
+.addtocart-button-custom-style-wrap .components-base-control__field .components-color-picker-wrap {
+  width: 100%;
+  background: #f8f8f8;
+  padding: 12px 15px;
+  border-bottom: 1px solid #e6e6e6; }
+  .addtocart-button-custom-style-wrap .components-base-control__field .components-color-picker-wrap .components-color-picker-swatch {
+    width: 18px; }
+
+.addtocart-button-custom-style-wrap .components-base-control__field {
+  margin-bottom: 0;
+  align-items: center; }
+
+.addtocart-button-custom-style-wrap label + .components-base-control {
+  width: 100%;
+  background: #f8f8f8;
+  padding: 12px 15px;
+  border-bottom: 1px solid #e6e6e6; }
+  .addtocart-button-custom-style-wrap label + .components-base-control .components-base-control__field {
+    width: 100px; }
+  .addtocart-button-custom-style-wrap label + .components-base-control.components-range-control {
+    max-width: 100%; }
+    .addtocart-button-custom-style-wrap label + .components-base-control.components-range-control .components-base-control__field {
+      width: 200px; }
+      .addtocart-button-custom-style-wrap label + .components-base-control.components-range-control .components-base-control__field .components-range-control__track {
+        color: #5d21f4; }
+
+#tab-panel-0-style-view .components-select-control__input {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-radius: 3px;
+  border: 1px solid #d7d7d7;
+  outline: none;
+  background: #fbfbfb; }
+  #tab-panel-0-style-view .components-select-control__input:focus {
+    background: #f8f5ff;
+    border: 1px solid #5d21f4; }
+
+#tab-panel-0-style-view .components-select-control__input ~ .components-input-control__backdrop {
+  border-color: transparent; }
 
